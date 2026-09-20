@@ -1,0 +1,19 @@
+In my linked list, it works by first asking the user where they want to put the object: 
+at the start of the list or at the end. Then, once they have done that, they input 
+what the object should be called, input the name, and it creates a Node out of the 
+object that was made, putting it either at the start of the list or at the end of the 
+list depending on the user's input.
+
+
+The role that the head plays in my list is that it acts as the starting point for 
+when you need to search within the linked list. For example, in my remove method, 
+it starts at the head of the list, moves through the list until it finds the Node 
+it is looking for, severs the Node from the previous Node, and joins it with the 
+Node right after the removed Node. 
+
+An engineer might need this type of list for something like a waiting line. 
+The example of the assignment is doing another real-world example would be 
+like a digital waiting line for telling you when your food is ready. 
+When your food is being made, you are in one list; when your food is ready, 
+you are put into another, and when you pick it up or it is delivered to you, 
+you are taken off all linked lists.
